@@ -109,9 +109,9 @@ export const listProyek = [
   {
     id: 1,
     gambar: Proyek1,
-    nama: "Website Sekolah",
-    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "AOS"],
+    nama: "Website Portfolio",
+    desk: "Portfolio personal yang menampilkan informasi profesional, skill, dan project yang telah dikerjakan dengan desain modern dan responsif.",
+    tools: ["HTML", "Vite", "Tailwind CSS", "Javascript", "Node JS", "React JS", "Github", "Visual Studio Code"],
     dad: "200",
   },
   {
