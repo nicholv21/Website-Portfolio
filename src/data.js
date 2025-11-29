@@ -1,5 +1,5 @@
 import Foto from "/assets/nichoo.jpg";
-import Foto2 from "/assets/fotonicho/Nicho.jpg";
+import Foto2 from "/assets/fotonicho/Nicho.png";
 const Image = {
   Foto,
   Foto2
@@ -111,7 +111,7 @@ export const listProyek = [
     gambar: Proyek1,
     nama: "Website Portfolio",
     desk: "Portfolio personal yang menampilkan informasi profesional, skill, dan project yang telah dikerjakan dengan desain modern dan responsif.",
-    tools: ["HTML", "Vite", "Tailwind CSS", "Javascript", "Node JS", "React JS", "Github", "Visual Studio Code"],
+    tools: ["HTML", "Vite", "Tailwind CSS", "Javascript", "NodeJS", "ReactJS", "Github", "Visual Studio Code"],
     dad: "200",
   },
   {
