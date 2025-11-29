@@ -1,5 +1,5 @@
 import Foto from "/assets/nichoo.jpg";
-import Foto2 from "/assets/fotonicho/Nicho.png";
+import Foto2 from "/assets/fotonicho/Almet.jpg";
 const Image = {
   Foto,
   Foto2
@@ -112,6 +112,7 @@ export const listProyek = [
     nama: "Website Portfolio",
     desk: "Portfolio personal yang menampilkan informasi profesional, skill, dan project yang telah dikerjakan dengan desain modern dan responsif.",
     tools: ["HTML", "Vite", "Tailwind CSS", "Javascript", "NodeJS", "ReactJS", "Github", "Visual Studio Code"],
+    link : "https://portfolionicholas.vercel.app/",
     dad: "200",
   },
   {
@@ -120,6 +121,7 @@ export const listProyek = [
     nama: "Company Profile",
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: ["HTML", "CSS", "Javascript", "AOS", "Swiper", "Lightbox Gallery"],
+    link : "https://portfolionicholas.vercel.app/",
     dad: "300",
   },
   {
@@ -128,6 +130,7 @@ export const listProyek = [
     nama: "Web Pernikahan 2.0",
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: ["Vite", "ReactJS", "TailwindCSS", "AOS"],
+    link : "https://portfolionicholas.vercel.app/",
     dad: "400",
   },
   {
@@ -136,6 +139,7 @@ export const listProyek = [
     nama: "Website Course",
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: ["Vite", "ReactJS", "Bootstrap", "AOS"],
+    link : "https://portfolionicholas.vercel.app/",
     dad: "500",
   },
   {
@@ -144,6 +148,7 @@ export const listProyek = [
     nama: "Web Portfolio",
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: ["HTML", "CSS", "Javascript", "Bootsrap"],
+    link : "https://portfolionicholas.vercel.app/",
     dad: "600",
   },
   {
@@ -152,6 +157,7 @@ export const listProyek = [
     nama: "Company Profile 2.0",
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: ["NextJS", "TailwindCSS", "Framermotion"],
+    link : "https://www.youtube.com/",
     dad: "700",
   },
 ];
