@@ -10,18 +10,18 @@ function App() {
         {/* Border foto kecil dan quotes */}
         <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
         <img src={DataImage.Foto} alt="Image Nicho" className="w-10 rounded-md" loading="lazy" />
-        <q>Jangan Lupa Senyum dan Bahagia</q>
+        <q>A miracle doesn’t come from luck, but from someone who keeps trying when others stop.</q>
         </div> {/* Border foto kecil dan quotes */}
 
         <h1 className="text-5xl/tight font-bold mb-6">Hi, Saya Nicholas Valentino</h1>
         <p className="text-base/loose mb-6 opacity-50">
-          Saya mempunyai ketertarikan dalam bidang Programming, terutama pada 
-          pembuatan Website dan Tampilan desain pada Website yang sudah berlangsung 
-          selama 2 Tahun untuk bidang Programming.</p>
+        Saya adalah mahasiswa Sistem Informasi yang suka mengeksplorasi bagaimana desain, data, dan teknologi bisa bekerja bersama untuk membuat solusi yang berguna dan mudah dipahami. 
+        Saya sering terlibat dalam berbagai proyek kampus dan kegiatan organisasi, yang membantu saya belajar melihat masalah dari berbagai sudut, memahami kebutuhan pengguna, dan mencari cara yang lebih efisien untuk menyelesaikannya. 
+        Saya menikmati proses belajar hal baru, mencoba ide-ide berbeda, dan mengembangkan diri lewat pengalaman nyata, baik dalam tim maupun secara mandiri.</p>
         {/* Download dan Lihat */}
         <div className="flex items-center sm:gap-4 gap-2">
-          <a href="#" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600"> 
-            Download CV <i className="ri-download-line ri-lg"></i>
+          <a href="https://www.linkedin.com/in/nicholasvalentino21" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600"> 
+            LinkedIn <i className="ri-download-line ri-lg"></i>
           </a>
           <a href="#project" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600"> 
             Lihat Project <i className="ri-arrow-down-line ri-lg"></i>
@@ -38,7 +38,7 @@ function App() {
       <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
         <img src={DataImage.Foto} alt="Image Nicho" className="w-12 rounded-md mb-10 sm:hidden" loading="lazy" />
         <p className="text-base/loose mb-10">
-          Hi, perkenalkan saya Nicholas Valentino, seorang mahasiswa jurusan Sistem Informasi yang berkuliah di Universitas Tarumanagara dengan pengalaman dalam kepelatihan, organisasi, serta aktivitas pelayanan. Memiliki kemampuan komunikasi, teamwork, dan kedisiplinan yang kuat, serta minat besar untuk terus mengembangkan diri melalui pengalaman baru. 
+          Hi, perkenalkan saya Nicholas Valentino, seorang mahasiswa jurusan Sistem Informasi yang berkuliah di Universitas Tarumanagara. saya memiliki pengalaman organisasi dan kepemimpinan sebagai pelatih futsal dan anggota BEM, yang mengembangkan kemampuan komunikasi, teamwork, dan problem-solving serta minat besar untuk terus mengembangkan diri melalui pengalaman baru. 
           Secara akademik dan praktik, memiliki ketertarikan pada pengembangan software, backend engineering, dan analisis data. Berpengalaman membangun aplikasi sederhana dan bekerja dengan database, serta memahami cara kerja sistem di balik layar melalui clean code, basic testing, dan problem-solving terstruktur. 
           Terbiasa menggunakan Spring Boot, SQL, dan konsep dasar web development, serta terus meningkatkan kemampuan melalui proyek pribadi, perkuliahan, dan pembelajaran mandiri. Termotivasi untuk berkontribusi dalam tim profesional, mengerjakan proyek nyata, dan belajar dari developer ataupun engineer yang lebih berpengalaman.
         </p>
@@ -48,7 +48,7 @@ function App() {
             {/* Project Yang dikerjakan */}
             <div>
               <h1 className="text-4xl mb-1">
-                45<span className="text-violet-500">+</span>
+                4<span className="text-violet-500">+</span>
                 </h1>
                 <p>Project Selesai</p>
             </div>
@@ -57,7 +57,7 @@ function App() {
             {/* Tahun Pengalaman */}
             <div>
               <h1 className="text-4xl mb-1">
-                4<span className="text-violet-500">+</span>
+                2<span className="text-violet-500">+</span>
                 </h1>
                 <p>Tahun Pengalaman</p>
             </div>

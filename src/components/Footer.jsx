@@ -6,9 +6,6 @@ const Footer = () => {
             <a href="#">© 2025 Nicholas Valentino</a>
         </div>
         <div className="flex items-center gap-3">
-            <a href="https://wa.me/6283894096886" target="_blank" rel="noopener noreferrer">
-                <i className="ri-whatsapp-fill ri-2x"></i>
-            </a>
             <a href="https://www.instagram.com/nicholas.nv" target="_blank" rel="noopener noreferrer">
                 <i className="ri-instagram-fill ri-2x"></i>
             </a>
