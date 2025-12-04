@@ -114,5 +114,14 @@ export const listProyek = [
     tools: ["HTML", "Vite", "Tailwind CSS", "Javascript", "NodeJS", "ReactJS", "Github", "Visual Studio Code"],
     link : "https://portfolionicholas.vercel.app/",
     dad: "200",
+  },
+  {
+    id: 2,
+    gambar: Proyek2,
+    nama: "Hotel Springboot",
+    desk: "Membangun backend dasar untuk skenario pemesanan hotel dengan integrasi MySQL serta fitur CRUD untuk data pemesanan, kamar, dan pengguna.",
+    tools: ["HTML", "CSS", "SpringBoot", "Javascript", "XAMPP", "Github", "Visual Studio Code"],
+    link : "https://portfolionicholas.vercel.app/",
+    dad: "200",
   }
 ];
