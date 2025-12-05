@@ -123,5 +123,14 @@ export const listProyek = [
     tools: ["HTML", "CSS", "SpringBoot", "Javascript", "XAMPP", "Github", "Visual Studio Code"],
     link : "https://portfolionicholas.vercel.app/",
     dad: "200",
+  },
+  {
+    id: 3,
+    gambar: Proyek3,
+    nama: "Tampilan Home SmartPhone",
+    desk: "Mendesain tampilan antarmuka aplikasi mobile menggunakan Figma, termasuk pembuatan layout halaman utama, navigasi, tombol, dan elemen visual agar lebih terstruktur dan mudah digunakan.",
+    tools: ["Figma"],
+    link : "https://www.figma.com/proto/UusgwJPIQL9gpXSenrG3XY/Homescreen-HP?node-id=7-2&t=GeeBl6Xe7SoPIEXM-1",
+    dad: "300",
   }
 ];
