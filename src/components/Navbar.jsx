@@ -25,21 +25,20 @@ const Navbar = () => {
       </div>
       <ul className={`menu flex items-center sm:gap-10 gap-4 md:static fixed left-1/2 -translate-x-1/2 
         md:translate-x-0 md:opacity-100 bg-white/30 backdrop-blur-md p-4 rounded-br-2xl rounded-bl-2xl 
-        md:bg-transparent transition-all md:transition-none z-40 ${
-          active ? "top-0 opacity-100" : "-top-10 opacity-0"
-          }`}>
+        md:bg-transparent transition-all md:transition-none z-50 ${
+          active ? "top-0 opacity-100" : "-top-10 opacity-0"}`}>
         <li>
-          <a href="#tentang" className="text-lg font-medium">About</a>
-        </li>
-        <li>
-          <a href="#project" className="text-lg font-medium">Project</a>
-        </li>
-        <li>
-          <a href="#message" className="text-lg font-medium">Message</a>
-        </li>
-        <li>
-          <a href="#contact" className="text-lg font-medium">Contact</a>
-        </li>
+          <a href="#tentang" className="sm:text-lg text-base font-medium hover:text-violet-500 transition-all hover:-translate-y-0.5 hover:shadow-lg rounded-lg inline-block px-1">About</a>
+        </li>
+        <li>
+          <a href="#project" className="sm:text-lg text-base font-medium hover:text-violet-500 transition-all hover:-translate-y-0.5 hover:shadow-lg rounded-lg inline-block px-1">Project</a>
+        </li>
+        <li>
+          <a href="#message" className="sm:text-lg text-base font-medium hover:text-violet-500 transition-all hover:-translate-y-0.5 hover:shadow-lg rounded-lg inline-block px-1">Message</a>
+        </li>
+        <li>
+          <a href="#contact" className="sm:text-lg text-base hover:text-violet-500 transition-all hover:-translate-y-0.5 hover:shadow-lg rounded-lg inline-block px-1">Contact</a>
+        </li>
       </ul>
     </div>
   )
