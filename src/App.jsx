@@ -120,6 +120,83 @@ function App() {
     </div>
     {/* Proyek */}
 
+{/* Proyek */}
+<div className="proyek mt-32 py-10" id="project">
+  <h1
+    className="text-center text-4xl font-bold mb-2"
+    data-aos="fade-up"
+    data-aos-duration="1000"
+    data-aos-once="true"
+  >
+    Project
+  </h1>
+
+  <p
+    className="text-base text-center opacity-60"
+    data-aos="fade-up"
+    data-aos-duration="1000"
+    data-aos-delay="300"
+    data-aos-once="true"
+  >
+    Berikut ini beberapa Project yang telah saya buat.
+  </p>
+
+  <div className="proyek-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8">
+    {listProyek.map((project) => (
+      <div
+        key={project.id}
+        className="p-5 bg-zinc-800 rounded-xl shadow-lg border border-zinc-700 hover:shadow-xl transition-all duration-300"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay={project.dad}
+        data-aos-once="true"
+      >
+        {/* Gambar project */}
+        <div className="w-full h-52 overflow-hidden rounded-lg mb-4">
+          <img
+            src={project.gambar}
+            alt="Image Project"
+            loading="lazy"
+            className="w-full h-full object-cover"
+          />
+        </div>
+
+        {/* Nama */}
+        <h1 className="text-2xl font-bold mb-3">{project.nama}</h1>
+
+        {/* Deskripsi */}
+        <p className="text-base leading-relaxed opacity-80 mb-4">
+          {project.desk}
+        </p>
+
+        {/* Tools */}
+        <div className="flex flex-wrap gap-2">
+          {project.tools.map((tool, index) => (
+            <span
+              key={index}
+              className="py-1 px-3 bg-zinc-700 border border-zinc-500 rounded-md text-sm font-semibold"
+            >
+              {tool}
+            </span>
+          ))}
+        </div>
+
+        {/* Tombol Lihat Project */}
+        <div className="mt-8 text-center">
+          <a
+            href={project.link}
+            className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600 transition-all duration-200"
+          >
+            Lihat Project
+          </a>
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
+{/* Proyek */}
+
+
     {/* Kontak */}
     <div className="kontak mt-32 sm:p-10 p-0" id="message">
       <h1 className="text-4xl mb-2 font-bold text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Kontak</h1>
